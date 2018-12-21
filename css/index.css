@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+/* 头部样式 */
+header{
+    padding: 0 0.24rem;
+    width: 100%;
+    height: 1rem;
+    display: flex;
+   justify-content: space-between;
+}
+.header-right{
+    width:50%;
+    height: 1rem;
+    display: flex;
+}
+.header-fh{
+    width:0.5rem;
+    height: 1rem;
+}
+.header-right span{
+    font-size: 0.35rem;
+    color: #000;
+    line-height: 1rem;
+}
+.header-left{
+    width: 7%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.header-right i{
+    font-size: 0.35rem;
+}
+.header-fh{
+    align-items: center;
+    justify-content: right;
+    font-size: 0.3rem;
+    line-height:1rem;
+}
+.swiper-container{
+    width: 100%;
+    height:9rem;
+    overflow: hidden;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height:1.5rem ;
+    background:#F5F3F3;
+    border-top: 2px solid #E7E7E7;
+    border-bottom:2px solid #E7E7E7;
+    position: relative;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0.24rem;
+    padding:0 0.24rem
+}
+nav a{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+nav li{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+nav li:nth-child(1){
+    background:#FD8F18 ;
+    text-align: center;
+    color: #fff;
+
+}
+nav li:nth-child(2){
+    background:#007aff ;
+}
+nav li:nth-child(3){
+    background:deepskyblue ;
+}
+nav li:nth-child(4){
+    background:yellow ;
+}
+nav ul li p{
+    font-size: 0.35rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.8rem;
+    text-decoration: none;
+}
+.suyuan i{
+    font-size: 0.8rem;
+    line-height: 0.05rem;
+    text-decoration: none;
+}
+.nh{
+    width: 100%;
+    height: 1.2rem;
+    border-bottom: 2px solid #E7E7E7;
+    padding:0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nh h5{
+    font-weight: bolder;
+    font-size: 0.4rem;
+    line-height: 1.2rem;
+}
+.nh i{
+    font-size:0.5rem;
+    color:#CFCFCF;
+}
+.bk{
+    width: 100%;
+    height:0.2rem ;
+    border-bottom: 2px solid #E7E7E7;
+    background:#F5F3F3;
+}
+main{
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #E7E7E7;
+    border-top: 2px solid #E7E7E7;
+    padding: 0 0.24rem;
+}
+.cpjj{
+    width: 100%;
+    padding-bottom: 0.4rem;
+}
+.cpjj h5{
+    font-weight: bolder;
+    font-size: 0.4rem;
+    margin-top: 0.24rem;
+}
+.cpjj span,p{
+    color: #727272;
+    font-size: 0.3rem;
+}
+.cpjj-sc{
+    margin-top: 0.3rem;
+}
+.cpjj-nf{
+    display: block;
+    margin-top: 0.6rem;
+}
+.progress{
+    border-radius: 1rem;
+    width: 80%;
+}
+.progress-bar{
+    background: #F35822;
+    color: #fff;
+    border-radius: 1rem;
+}
+.shengyu{
+    width: 100%;
+    height: 0.5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.shengyu h5{
+    color: red;
+    margin-right: 0.05rem;
+}
+.cpxq{
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #E7E7E7;
+    padding: 0.24rem 0 0.3rem 0;
+}

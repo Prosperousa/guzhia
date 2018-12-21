@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+.coniter{
+    width: 100%;
+    height: 100%;
+    padding: 0 0.24rem;
+}
+/* 头部样式 */
+header{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+   justify-content: space-between;
+}
+.header-right{
+    width:50%;
+    height: 1rem;
+    display: flex;
+}
+.header-fh{
+    width:0.5rem;
+    height: 1rem;
+}
+.header-right span{
+    font-size: 0.35rem;
+    color: #000;
+    line-height: 1rem;
+}
+.header-left{
+    width: 7%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.header-right i{
+    font-size: 0.35rem;
+}
+.header-fh{
+    align-items: center;
+    justify-content: right;
+    font-size: 0.3rem;
+    line-height:1rem;
+}
+.swiper-container{
+    width: 100%;
+    height:9rem;
+    overflow: hidden;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.gsmc{
+    width: 100%;
+    height:0.8rem;
+    color: #000;
+    text-align: center;
+}
+.bk{
+    width: 100%;
+    height:0.2rem ;
+    border-bottom: 2px solid #E7E7E7;
+    background:#F5F3F3;
+}
+main{
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #E7E7E7;
+    border-top: 2px solid #E7E7E7;
+}
+.cpjj{
+    width: 100%;
+    padding: 0 0.24rem 0 0.24rem;
+}
+.cpjj h5{
+    font-weight: bolder;
+    font-size: 0.4rem;
+    margin-top: 0.24rem;
+}
+.cpjj span,p{
+    color: #727272;
+    font-size: 0.3rem;
+}
+.cpjj-sc{
+    margin-top: 0.3rem;
+}
+.cpjj-nf{
+    display: block;
+    margin-top: 0.6rem;
+    padding: 
+}
+.cpjj-mc h5{
+    font-size: 0.35rem;
+    color: #475476;
+}
+.progress{
+    border-radius: 1rem;
+    width: 80%;
+}
+.progress-bar{
+    color: #000;
+
+}
+.leibie{
+    width: 100%;
+    background:#DDF9FC; 
+    padding:0.05rem 0 0.05rem 0.24rem;
+
+}
+.shengyu{
+    width: 100%;
+    height: 0.5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.shengyu h5{
+    color: red;
+    margin-right: 0.05rem;
+}
+.cpxq{
+    width: 100%;
+    height: 100%;
+    padding: 0.24rem 0 0.3rem 0.24rem;
+     background: #FDF5EA;
+     margin-top: 0.24rem;
+}
+.bt1{
+    font-size: 0.3rem;
+    font-weight: bolder;
+    color: #000;
+}
+.pl{
+    width: 100%;
+    padding: 0.24rem 0 0.24rem 0.24rem;
+    background: #F1FEF4;
+    margin-top: 0.24rem;
+}
+/* footer{
+    width: 100%;
+    height: 1.2rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul a{
+    width: 25%;
+    height: 100%;
+}
+footer ul li{
+    width: 2rem;
+    height: 100%;
+    text-align: center;
+}
+footer ul a p{
+    color: red;
+    font-size: 0.2rem;
+
+}
+ */
